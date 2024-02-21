@@ -1,0 +1,5 @@
+dist/
+node_modules/
+package-lock.json
+c_cpp_properties.json
+iar-vsc.json

@@ -1,0 +1,20 @@
+{
+  "name": "hexreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "set APP_DEBUG=true & node dist",
+    "test": "mocha --config .mocharc.json --watch src/**/*.test.ts",
+    "start": "set APP_DEBUG=false & node dist"
+  },
+  "author": "Gerasimov V. Gerasim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "dependencies": {
+    "serialport": "^9.2.8"
+  }
+}
